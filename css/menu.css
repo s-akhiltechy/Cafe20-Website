@@ -1,0 +1,287 @@
+body {
+    background-color: #f8f3ed;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url("./assets/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.handpick-heading{
+
+    padding-top: 70px;
+    padding-left: 80px;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+.featured-heading{
+
+    padding-left: 80px;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+.header{
+
+    height:50px;
+    background-color:#5a3a2a;
+
+}
+
+.logo{
+    font-family: "Teachers", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.cafe{
+    
+    color:#c89b5b
+}
+
+.twenty{
+    
+    color: bisque;
+
+}
+
+
+
+.navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;            
+    justify-content: center; 
+    gap: 150px; 
+               
+
+}
+
+
+.under-button-effect {
+    font-size: 20px;
+    background-color:#5a3a2a;
+    border: 0;
+    padding-right: 40;
+    font-family: "Google Sans", sans-serif;
+    color:bisque;
+    align-items: center;
+    cursor: pointer;
+    
+    
+  
+  /* 1. Essential spacing and layout fixes */
+    display: inline-block; 
+    padding: 12px 24px;   /* Internal button padding */
+    position: relative;   /* Anchor for the line */
+    margin-bottom: 6px;   /* Creates safe space below for the line */
+    }
+
+/* 2. Positioning the line outside the button base */
+.under-button-effect::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;          /* Thickness of the line */
+    left: 0;
+    
+    /* Places the line exactly at the outer bottom edge */
+    bottom: -6px;         
+    
+    background-color:bisque;
+    transform: scaleX(0);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+/* 3. Trigger animation on hover */
+.under-button-effect:hover::after {
+    transform: scaleX(1);
+}
+
+
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+    background:rgba(44,30,23,.65);
+    backdrop-filter:blur(12px);
+
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    position:relative;
+    font-size:18px;
+}
+
+nav a::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:2px;
+    left:0;
+    bottom:-6px;
+    background:#d9a35f;
+    transition:.3s;
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+body{
+    background:#F8F5F2;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 60px 8%;
+    padding-top: 150px;
+    
+}
+
+.menu-card{
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: 0.3s;
+    
+}
+
+.menu-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0,0,0,.15);
+}
+
+.menu-card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.menu-content{
+    padding: 20px;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-header h3{
+    margin: 0;
+    font-size: 28px;
+    color: #3d2c1e;
+}
+
+.menu-header span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #8B5E3C;
+}
+
+.menu-content p{
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+.final{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:#5a3a2a;
+    height:300px
+    
+}
+
+.final-logo{
+    color:white;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:"Teachers";
+    padding-top:30px;
+    padding-left: 40px;
+    opacity: 50%;
+
+}
+
+.final-text{
+    color:antiquewhite;
+    opacity: 50%;
+    padding-left:40px;
+    font-size:18px;
+    font-family:"Google Sans";
+    padding-top:15px;
+}
+
+.final-text2{
+    color:antiquewhite;
+    opacity: 50%;
+    padding-left:40px;
+    font-size:18px;
+    font-family:"Google Sans";
+    
+}
+
+.social-icons{
+    padding-left:40px;
+    padding-top: 20px;
+}
+
+.time{
+    color:antiquewhite;
+    opacity: 50%;
+    padding-right:40px;
+    font-size:18px;
+    font-family:"Google Sans";
+    text-align: end;
+    
+}
