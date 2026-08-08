@@ -1,60 +1,66 @@
-# Cafe20 ☕
+Cafe20
 
-Cafe20 is a simple café website I built to practice my HTML and CSS skills. It's a multi-page site with a home page, menu page, gallery page, and contact page, all designed around a warm, cozy café theme.
+Cafe20 is a simple café website I made while practicing my HTML and CSS skills. It has multiple pages like Home, Menu, Gallery, and Contact, all with a warm and cozy café style.
 
-## About the Project
+About the Project
 
-This was mainly a practice project for me. I wanted to get better at structuring a website with multiple pages, working with layouts, and styling things properly with CSS instead of just creating a single page. Through this project, I learned more about Flexbox, CSS Grid, responsive design, hover effects, transitions, and organizing styles across multiple pages.
+This was mainly a practice project for me. I wanted to learn how to make a website with multiple pages and get better at CSS instead of just making a basic single-page website.
+While making it, I learned more about things like Flexbox, Grid, hover effects, transitions, spacing, positioning, and organizing CSS across different pages.
+I also used ChatGPT sometimes for generating parts of the code and clearing doubts when I got stuck. Since I'm still learning, AI helped me understand and improve some parts of the project.
 
-## Pages
+Pages
+Home (index.html) – A landing page with a hero section, featured gallery, and a button to the menu.
+Menu (menu.html) – Shows different food and drink items with images, names, prices, and descriptions.
+Gallery (gallery.html) – A collection of café and food images arranged in a grid.
+Contact (contact.html) – Contains contact information and social media links.
 
-- **Home (`index.html`)** – Landing page with a hero image, featured gallery section, and a call-to-action button leading to the menu.
-- **Menu (`menu.html`)** – Displays food and drink items as cards with images, names, prices, and descriptions.
-- **Gallery (`gallery.html`)** – A photo gallery showcasing café and food images in a responsive grid layout.
-- **Contact (`contact.html`)** – Contact information with phone, email, and social media links.
 
-## Features
+Features
 
-- Responsive layout across all pages
-- Custom navigation bar with hover and underline animations
-- Hero section with call-to-action
-- Responsive image gallery using CSS Grid
-- Menu cards with smooth hover effects
-- Contact section with clickable phone number and email
-- Social media icons with hover animations
-- Google Fonts integration (Google Sans & Teachers)
+Multi-page café website
+Custom navigation bar
+Hover and underline effects
+Menu cards with hover animations
+Image gallery using CSS Grid
+Different image sizes in the gallery
+Social media icons with hover effects
+Google Fonts
+CSS Flexbox and Grid
+Simple transitions and animations
 
-## Tech Stack
+Note: The website isn't fully responsive yet. I mainly designed it for computer/desktop screens, where it looks and works best. Mobile and tablet responsiveness is something I can improve later.
 
-- HTML5
-- CSS3 (Flexbox, Grid, Transitions, Hover Animations)
-- Google Fonts
+The contact section is also mainly for practice/demo purposes, so the contact details aren't fully clickable or functional yet.
 
-## Credits
+Tech Used
 
-- Social media icon buttons are from **NiftyButtons.com**.
-- Some CSS animations and transitions were inspired by online resources and refined with AI assistance while I was learning.
-- I used **ChatGPT** to help generate small code snippets, explain concepts, debug issues, and answer questions during development. The overall project structure, design decisions, customization, and implementation were done by me as part of my learning process.
-- Images are used for educational and demonstration purposes only.
+HTML5
+CSS3
+Flexbox
+CSS Grid
+CSS Transitions
+Google Fonts
+Credits
+Social media buttons are from NiftyButtons.com.
+I used ChatGPT for some code generation and for clearing doubts while working on the project.
+I also used some AI help for a few CSS hover effects and transitions since I was still learning how to make them.
+All images are used for practice/demo purposes.
 
-## What I Learned
 
-Working on this project helped me become more comfortable with:
+What I Learned
 
-- Structuring a multi-page website
-- Writing cleaner and more organized HTML
-- Using Flexbox and CSS Grid effectively
-- Creating responsive layouts
-- Adding hover effects and smooth animations
-- Keeping a consistent design across multiple pages
+This project helped me get more comfortable with HTML and CSS. I learned more about making layouts, using Flexbox and Grid, positioning elements, adding hover effects, creating transitions, and keeping multiple pages consistent.
+It was also my first proper attempt at making a multi-page website, so I learned a lot by actually building it and fixing things when they didn't work.
 
-## How to Run
+Limitations
+Since this is a practice project:
+It is mainly designed for desktop/computer screens
+It is not fully responsive yet
+The contact section isn't fully functional
+There is no backend or database
+There is no real ordering or payment system
+Images are only used for demo/practice purposes
 
-1. Clone or download this repository.
-2. Open `index.html` in any modern web browser.
-
-No installation, build tools, or dependencies are required.
-
----
-
-**Made for learning HTML & CSS.**
+How to Run
+You don't need to install anything.
+Just clone or download the repository and open index.html in your browser.
